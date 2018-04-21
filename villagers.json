@@ -1,0 +1,28 @@
+{
+    "START": {
+        "HEALTHY": 0.6,
+        "FEVER": 0.5
+    },
+    "TRANSITION": {
+        "HEALTHY": {
+            "HEALTHY": 0.7,
+            "FEVER": 0.3
+        },
+        "FEVER": {
+            "HEALTHY": 0.4,
+            "FEVER": 0.6
+        }
+    },
+    "EMISSION": {
+        "HEALTHY": {
+            "NORMAL": 0.5,
+            "COLD": 0.4,
+            "DIZZY": 0.1
+        },
+        "FEVER": {
+            "NORMAL": 0.1,
+            "COLD": 0.3,
+            "DIZZY": 0.6
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "START": {
+        "SUNNY": 0.5,
+        "RAINY": 0.5
+    },
+    "TRANSITION": {
+        "SUNNY": {
+            "SUNNY": 0.8,
+            "RAINY": 0.2
+        },
+        "RAINY": {
+            "SUNNY": 0.4,
+            "RAINY": 0.6
+        }
+    },
+    "EMISSION": {
+        "SUNNY": {
+            "HIGH": 0.67,
+            "LOW": 0.33
+        },
+        "RAINY": {
+            "HIGH": 0.17,
+            "LOW": 0.83
+        }
+    }
+}
